@@ -1,0 +1,36 @@
+public class QuadEqn{
+    
+    int a = 0;
+    int b = 0;
+    int c = 0;
+    
+    public QuadEqn(int a, int b, int c){
+        a = a;
+        b = b;
+        c = c;
+    }
+    
+    String signOfA = "";
+    String signOfB = "";
+    String signOfC = "";
+    
+    if(a>0){
+        signOfA = "";
+    }else{
+        signOfA = "-";
+    }
+    
+    
+    if(b<0) signOfB = "-";
+    else signOfB = "+";
+    
+    if(c<0){
+        signOfC = "-";
+        c=c*-1;
+    }else signOfC = "+";
+    
+    
+    public String toString(){
+        return "signOfA + "x2" + signOfB + "x" + c";
+    }
+}
