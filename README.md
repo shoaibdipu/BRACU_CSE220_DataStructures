@@ -1,5 +1,5 @@
 # CSE220
-CSE220 : Data Structures [CSE, BRACU]
-Summer 2018
-Theory Faculty : Samiul Islam [SLI]
-Lab Faculty : Ahanaf Hassan Rodoshi [AHR]
+CSE220 : Data Structures [CSE, BRACU] <br/>
+Semester : Summer 2018 <br/>
+Theory Faculty : Samiul Islam [SLI] <br/>
+Lab Faculty : Samiul Islam [SLI] & Ahanaf Hassan Rodoshi [AHR]
