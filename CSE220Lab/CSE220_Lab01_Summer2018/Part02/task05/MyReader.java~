@@ -1,0 +1,28 @@
+import java.util.*;
+
+public class MyReader{
+    int readInteger(){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter a number: ");
+        String s = sc.nextLine();
+        
+//        int numInt = Integer.parseInt(s);
+//        double numDouble = Double.parseDouble(s);
+        
+        boolean point = false;
+        
+        char [] ch = s.toCharArray();
+        int len = s.length();
+        
+        for(int i=0; i<len; i++){
+            if(ch[i]=='.') point = true;
+        }
+        
+        if(point){
+            return 0;
+        }else{ 
+            return 1;
+        }
+        
+    }
+}
